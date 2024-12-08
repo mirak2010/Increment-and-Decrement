@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Increment and Decrement using JS HW</title>
+    <h1>Increment and Decrement using JS HW</h1>
+</head>
+<body>
+    <div id="counter">0</div>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <script>
+        let counter=0;
+
+        function increment(){
+            counter++
+            document.getElementById("counter").innerHTML=counter;
+        }
+
+        function decrement(){
+            counter--
+            document.getElementById("counter").innerHTML=counter;
+        }
+    </script>
+</body>
+</html>
